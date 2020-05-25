@@ -1,0 +1,6 @@
+In Python you can use various types of loops to cycle through millions of options in seconds.
+In Python you can store elements in lists, tuples and dictionaries.
+In Python you can easily store user input as variables.
+In Python you can write functions that can be easily called later for efficiency.
+In Python you can write Classes with modules inside that can be imported into other files.
+In Python you can do magic...
