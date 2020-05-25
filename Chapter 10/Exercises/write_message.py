@@ -1,3 +1,5 @@
+# Simple example from book
+
 from time import sleep
 filename = 'programming.txt'
 
