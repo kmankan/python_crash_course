@@ -1,3 +1,5 @@
+# Compute e (Natural Log) to n decimal places
+
 import decimal
 
 
