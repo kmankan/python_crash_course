@@ -3,23 +3,24 @@
 filename = "learning_python.txt"
 
 
-with open(filename) as file_object:
-    contents = file_object.read()
-    print(contents + "\n")
+def learn_python():
+    with open(filename) as file_object:
+        contents = file_object.read()
+        print(contents + "\n")
 
-with open(filename) as file_object:
-    for sentence in file_object:
-        print(sentence.rstrip())
-    print("\n")
+    with open(filename) as file_object:
+        for sentence in file_object:
+            print(sentence.rstrip())
+        print("\n")
 
-with open(filename) as file_object:
-    lines = file_object.readlines()
+    with open(filename) as file_object:
+        lines = file_object.readlines()
 
-learn_string = ''
-for line in lines:
-    learn_string += line
-print(learn_string)
-print("\n* * *\n")
+    learn_string = ''
+    for line in lines:
+        learn_string += line
+    print(learn_string)
+    print("\n* * *\n")
 
 
 def replace_python_with_x(x):
@@ -35,4 +36,5 @@ def replace_python_with_x(x):
     print(text_strings)
 
 
+learn_python()
 replace_python_with_x('C')
