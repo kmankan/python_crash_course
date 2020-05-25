@@ -1,3 +1,5 @@
+# Exercises 10-3 and 10-3
+
 filename1 = 'guest.txt'
 filename2 = 'guest_book.txt'
 
